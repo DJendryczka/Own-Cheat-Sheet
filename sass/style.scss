@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 1200px;
+    height: 70vh;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 1em;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+thead td {
+    text-align: center;
+    background-color: chocolate;
+}
+
+.tag {
+    background-color: rgba(81, 67, 67, 0.458);
+    color: black;
+}
